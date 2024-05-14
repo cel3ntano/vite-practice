@@ -15,7 +15,7 @@ div {
   width: 50px;
   height: 50px;
   border: 2px dashed red;
-  margin: 10px;
+  margin: 40px auto;
 }
 
 .outerCircle,
@@ -76,7 +76,7 @@ div {
   border: 2px solid white;
   flex-wrap: wrap;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .gridItem {
@@ -132,3 +132,21 @@ div {
   padding: 15px;
   border: 1px solid firebrick;
 }
+
+.taskTitle {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+#productTable {
+  margin: 0 auto;
+}
+
+/* .task-form {
+  text-align: center;
+  margin: 0 auto;
+} */

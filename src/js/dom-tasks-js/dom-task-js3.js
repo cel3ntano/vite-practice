@@ -2,7 +2,7 @@
 // При кліку на кнопку текст параграфів змінюється на їх порядковий номер
 
 const btn = document.querySelector('button');
-const peshki = document.querySelectorAll('p');
+const peshki = document.querySelectorAll('p:not(.taskTitle)');
 
 btn.addEventListener('click', onClickHandler);
 function onClickHandler() {
