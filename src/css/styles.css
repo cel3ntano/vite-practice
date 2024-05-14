@@ -4,22 +4,52 @@
   | default @import url()
   |============================
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=block');
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@import url('./page-1.css');
+@import url('./page-2.css');
+@import url('./page-3.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Montserrat, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
+  color: #b8b8b8;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  /* background-color: rgba(255, 255, 255, 0.87); */
+  background-color: #3c3c3c;
+}
+
+h1 {
+  color: rgb(196, 132, 255);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+li {
+  color: rgb(121, 181, 255);
+  text-align: center;
+  padding: 5px 0;
+}
+
+.container {
+  padding: 20px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.home-link {
+  display: block;
+  text-align: center;
+  color: rgb(196, 132, 255);
+  padding: 10px;
 }
