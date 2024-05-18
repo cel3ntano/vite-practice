@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                      */const e=document.querySelector("#box"),r=document.querySelector("#decrease"),d=document.querySelector("#increase");r.addEventListener("click",i);d.addEventListener("click",i);let t=10;function i(s){const o=s.target.id,c=e.offsetWidth,n=e.offsetHeight;o==="increase"?(e.style.width=c+t+"px",e.style.height=n+t+"px"):(e.style.width=c-t+"px",e.style.height=n-t+"px")}
+//# sourceMappingURL=commonHelpers13.js.map
