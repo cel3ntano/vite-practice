@@ -9,6 +9,7 @@
 @import url('./page-1.css');
 @import url('./page-2.css');
 @import url('./page-3.css');
+@import url('./dom-tasks.css');
 
 :root {
   font-family: -apple-system, BlinkMacSystemFont, Montserrat, 'Segoe UI', Roboto,

@@ -1,0 +1,19 @@
+#decrease,
+#increase {
+  border-radius: 8px;
+  background: #4e75ff;
+  padding: 8px 16px;
+  gap: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  margin-right: 10px;
+}
+
+#decrease:active,
+#increase:active {
+  transform: translateY(3%);
+}

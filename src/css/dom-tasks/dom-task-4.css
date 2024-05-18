@@ -1,0 +1,33 @@
+#passwordButton {
+  width: 120px;
+  border-radius: 8px;
+  background: #4e75ff;
+  padding: 8px 16px;
+  gap: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+}
+
+#passwordButton:active {
+  transform: translateY(3%);
+}
+
+#passwordInput {
+  border-radius: 4px;
+  border: 1px solid #bebebe;
+  padding: 8px 16px;
+  width: 272px;
+  height: 40px;
+  background: #727272;
+  color: #c2c2c2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  outline: none;
+  margin-right: 10px;
+}
